@@ -2,7 +2,7 @@ import functions
 from functions import agent, render_it
 import os
 
-checkpoint_path = 'checkpoint_500.pth'
+checkpoint_path = 'checkpoint_4000.pth'
 
 # Check if checkpoint exists and load
 if os.path.exists(checkpoint_path):
